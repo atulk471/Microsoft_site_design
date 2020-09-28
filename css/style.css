@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    margin: 0.8vw 4vw 0.3vw 4vw;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    float: left;
+    font-weight: 100;
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    padding: 0.6vw 0.7vw;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .topnav a span:hover
+  {
+    display:inline-block;
+    border-bottom:3px solid darkslategray;
+    padding-bottom: 1px;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  
+  .notify {
+    z-index: 0;
+    margin: 0vw 4vw;
+    overflow: hidden;
+    background-color: rgba(111, 76, 192, 0.993);
+  }
+  
+  .notify a {
+    font-weight: 100;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 40px;
+  }
+  
+  .notify a:hover
+  {
+    text-decoration: underline;
+  }
+
+  .slideshow {
+    z-index: 0;
+    margin: 0vw 4vw;
+    overflow: hidden;
+    background-image: radial-gradient(circle, #ffffff, #f3f3f3, #e8e8e8, #dcdcdc, #d1d1d1);
+  }
+
+  .slide1 .caption1
+  {
+    margin-left: 6.7vw;
+    float: left;
+    margin-top: 9vw;
+  }
+  .slide1 .caption2
+  {
+    margin-left: 7.1vw;
+    float: left;
+    margin-top: 9vw;
+  }
+  .slide1 .image1 
+  {
+      float: right;
+      margin-right: 2vw;
+  }
+  
+  
+  .slide1 .image2 
+  {
+      float: right;
+      margin-right: 15vw;
+  }
+
+  .image1 img
+  {
+    width: 62vw;
+  }
+
+  .image2 img
+  {
+    width: 28.6vw;
+  }
+
+  .slideshow button
+  {
+      color: white;
+      font-weight: 530;
+      font-size: 15px;
+      background-color: black;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 0;
+  }
+  .prev, .next {
+    z-index: 5;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 0.8vw;
+    padding: 10px 17px;
+    background-color: white;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 180px;
+    user-select: none;
+    cursor: pointer;
+  }
+  .prev
+  {
+    float: left;
+  }
+  .next
+  {
+      right: 0;
+      margin-right: 4.7vw;
+  }
+
+  .prev:hover , .next:hover
+  {
+    box-shadow: 0px 7px 3px darkgray;
+  }
+  
+  .dot1 , .dot2 {
+    cursor: pointer;
+    height: 6px;
+    width: 6px;
+    background-color: #bbb;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .features 
+  {
+    display: block;
+    margin: auto;
+    
+    overflow: hidden;
+    margin: 0vw 16vw;
+    margin-top: 60px;
+    position: relative;
+  }
+  .features div
+  {
+    width: 25%;
+    float: left;
+  }
+  .features div a
+  {
+    text-decoration: none;
+    color: darkslategrey;
+  }
+
+  .blogs
+  {
+    position: relative;
+    
+    overflow: hidden;
+    display: block;
+    margin: 0vw 4vw;
+    margin-top: 70px;
+  }
+
+  .news
+  {
+    margin: 0vw 4vw;
+    margin-top: 40px;
+  }
+
+  .blogs div
+  {
+    width: 25%;
+    float: left;
+  }
+
+  .blogs div p
+  {
+    width: 87%;
+  }
+  
+  .blogs div h1
+  {
+    font-size: 1.2vw;
+  }
+  
+  .blogs div a
+  {
+    text-decoration: none;
+  }
+
+  .blogs div img
+  {
+    width: 21.3vw;
+  }
+
+  .banner
+  {
+    margin: 0vw 4vw;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    background-image: radial-gradient(circle, #ffffff, #f3f3f3, #e8e8e8, #dcdcdc, #d1d1d1);
+  }
+
+  .slide3 .caption3
+  {
+    margin-left: 8vw;
+    float: left;
+    margin-top: 12vw;
+  }
+
+  .slide3 .image3 
+  { 
+      float: right;
+      padding: 30px;
+      margin-right: 12vw;
+  }
+  
+  .image3 img
+  {
+    width: 22vw;
+  }
+
+
+  .banner button
+  {
+      color: white;
+      font-weight: 530;
+      font-size: 15px;
+      background-color: black;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 0;
+  }
+
+  .social
+  {
+    margin: 3vw 4vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .social span
+  {
+    font-weight: 100;
+    color: rgb(109, 102, 102);
+  }
+
+  .social span i
+  {
+    padding-left: 10px;
+  }
+
+  footer
+  {
+    overflow: hidden;
+    background-color: rgb(241, 232, 232);
+  }
+  .links
+  {
+    overflow: hidden;
+  }
+
+  footer .links
+  {
+    margin: 2vw 3vw;
+  }
+
+  .links div
+  {
+    width: 16.6%;
+    float: left;
+  }
+
+  .links div ul
+  {
+    list-style: none;
+  }
+
+  .links div ul li
+  {
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: rgb(77, 116, 116);
+  } 
+  .links div ul li h4
+  {
+    font-size: 15px;
+    color: darkslategray;
+  }
+
+  .copyright
+  {
+    overflow: hidden;
+    margin: 1vw 5.6vw;
+}
+.copyright h4
+{
+  float: left;
+  font-size: 11px;
+  overflow: hidden;
+  font-weight: 100;
+  color: darkslategrey;
+}
+
+.copyright div
+{
+  overflow: hidden;
+  float: right;
+  
+}
+
+.copyright ul
+{
+  list-style: none;
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.copyright ul li
+{
+  float: left;
+  padding-left: 20px;
+  color: darkslategrey;
+}
